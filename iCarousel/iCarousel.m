@@ -1882,6 +1882,7 @@ NSComparisonResult compareViewDepth(UIView *view1, UIView *view2, iCarousel *sel
 				return YES;
 			}
 		}
+		free(methods);
 		class = [class superclass];
 	}
     
